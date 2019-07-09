@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+    <title>MariaDB - ERROR 2003 :: JDM's Blog</title>
+    <!-- # common resource # -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <meta name="author" content="Jung DongMin">
+    
+    <!-- # css -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/blog/css/view.min.css">
+
+    
+
+    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="/blog/scripts/posts.min.js"></script>
+    <script src="/blog/scripts/view.min.js"></script>
+	</head>
+	<body>
+    <div id="_gnb" class="text-right">
+        <a href="/">Home</a>│<a href="/blog/">Blog</a>│<a href="/guest/">Guestbook</a>│<a href="/lab/">Lab</a>&nbsp;</div>
+        <div id="top_subject" class="jumbotron">
+            <p id="tob_subject_p1" class="text-center">
+                <a href="/blog/">JDM's Blog</a>
+            </p>
+            <p id="tob_subject_p2"class="text-center">온갖 테스트 결과가 기록되는 이곳은 JDM's Blog입니다. :3</p>
+    </div>
+		<!-- noscript -->
+		<noscript>
+      이 사이트의 기능을 모두 활용하기 위해서는 자바스크립트를 활성화 시킬 필요가 있습니다.
+      브라우저에서 자바스크립트를 활성화하는 방법(http://www.enable-javascript.com/ko/)을 참고 하세요.
+		</noscript>
+		<!-- container -->
+		<div class="container" id="viewContainer">	
+			<!-- content 영역 -->
+			<div id="left_wrap" class="col-md-10 col-md-offset-1">
+				<!-- 블로그 전문 -->
+				<article>
+                    <!-- 제목 -->
+                    <h1 id="content_title">MariaDB - ERROR 2003</h1>
+					<!-- 본문 -->
+					<div id="content">
+<p>갑자기 윈도우7에서 돌리던 로컬 마리아DB에서 오류 메시지가 출력 됐다.</p>
+<pre class="console">
+ERROR 2003 &lt;HY000&gt;:Can't connect to Mysql server on 'localhost'&lt;10061&gt;
+</pre>
+<p>일단 해결 방법으로는 작업관리자에서 서비스 탭의 MySql 상태가 중지 되어 있던 것을 다시 시작시켰더니 됐다. 왜 내려가 있었지?? -_-</p>
+</div>
+				</article>
+			</div>
+			<!-- // content 영역 -->
+		</div>
+		<!-- # code highlight -->
+		<script src="//cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=scala&lang=sql&lang=kotlin&lang=yaml&skin=sons-of-obsidian"></script>
+		<script src="/lib/scripts/footer.js"></script>
+	</body>
+</html>

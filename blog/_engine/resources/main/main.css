@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body { font-family: "Nanum Gothic Coding", sans-serif !important;}
+
+h4 { font-weight: bold; }
+a { color: #333; }
+a:hover{ color: #333; text-decoration:none; }
+
+.card { border-radius: 5px; box-shadow:5px 5px 5px #999; }
+.card:hover{
+	z-index:100;
+	transform: scale(1.05, 1.05);
+	-webkit-transform: scale(1.05, 1.05);
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: transform;
+	-webkit-transition-timing-function: linear;
+	-moz-transform: scale(1.05, 1.05);
+	-moz-transition-duration: 0.2s;
+	-moz-transition-property: transform;
+	-moz-transition-timing-function: linear;
+	-ms-transform: scale(1.05, 1.05);
+	-ms-transition-duration: 0.2s;
+	-ms-transition-property: transform;
+	-ms-transition-timing-function: linear;
+}

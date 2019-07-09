@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+    <title>SpringBoot 프로젝트를 API 서버로! :: JDM's Blog</title>
+    <!-- # common resource # -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <meta name="author" content="Jung DongMin">
+    
+    <!-- # css -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/blog/css/view.min.css">
+
+    
+
+    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="/blog/scripts/posts.min.js"></script>
+    <script src="/blog/scripts/view.min.js"></script>
+	</head>
+	<body>
+    <div id="_gnb" class="text-right">
+        <a href="/">Home</a>│<a href="/blog/">Blog</a>│<a href="/guest/">Guestbook</a>│<a href="/lab/">Lab</a>&nbsp;</div>
+        <div id="top_subject" class="jumbotron">
+            <p id="tob_subject_p1" class="text-center">
+                <a href="/blog/">JDM's Blog</a>
+            </p>
+            <p id="tob_subject_p2"class="text-center">온갖 테스트 결과가 기록되는 이곳은 JDM's Blog입니다. :3</p>
+    </div>
+		<!-- noscript -->
+		<noscript>
+      이 사이트의 기능을 모두 활용하기 위해서는 자바스크립트를 활성화 시킬 필요가 있습니다.
+      브라우저에서 자바스크립트를 활성화하는 방법(http://www.enable-javascript.com/ko/)을 참고 하세요.
+		</noscript>
+		<!-- container -->
+		<div class="container" id="viewContainer">	
+			<!-- content 영역 -->
+			<div id="left_wrap" class="col-md-10 col-md-offset-1">
+				<!-- 블로그 전문 -->
+				<article>
+                    <!-- 제목 -->
+                    <h1 id="content_title">SpringBoot 프로젝트를 API 서버로!</h1>
+					<!-- 본문 -->
+					<div id="content">
+<p>api.jdm.kr가 Spring MVC 프로젝트 기반이었지만 최근 스터디겸 Spring Boot로 변경했습니다. 적용하면서 삽질한것도 꽤 많은데 전체적으로 마이그레이션 진행까지 되서 깔끔한 느낌이네요.</p>
+<p>Spring Boot에는 AOP, jpa, Logging, Profile, DB, Web, Gradle 등등... 나름 공부할거 다 집어넣느라고 삽질 + 고생 엄청... TT</p>
+<p>결론은 Spring Boot + Gradle 조합 강추합니다. :)</p>
+<hr>
+<p><strong>2015.10.30</strong> 좋은 SpringBoot 공부처였던 <span class="command">api.jdm.kr</span>은 제할일을 이제 마치고 슬슬 해당 업무를 <span class="command">xapi.jdm.kr</span>이 넘겨 받을 예정입니다. :)</p>
+<p>그리고 <span class="command">xapi.jdm.kr</span>은 nodejs + express + cors 가 적용될 예정이에요!</p>
+</div>
+				</article>
+			</div>
+			<!-- // content 영역 -->
+		</div>
+		<!-- # code highlight -->
+		<script src="//cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=scala&lang=sql&lang=kotlin&lang=yaml&skin=sons-of-obsidian"></script>
+		<script src="/lib/scripts/footer.js"></script>
+	</body>
+</html>
